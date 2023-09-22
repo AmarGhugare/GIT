@@ -1,1 +1,20 @@
+# ignore complete file whose name is git.txt
 git.txt
+
+# Git will ignore all files whose name ends with .env
+*.env
+
+# it will exclude this file wo add from ignoring 
+!pattern.env
+
+# it will ignore all the files in same folder level
+/*.html
+
+# ignore all files in directory
+Test/
+
+# ignore all .txt file who is direct child of doc folder
+doc/*.txt
+
+# ignore all childs in the doc folder with txt extension
+doc/**/*txt
